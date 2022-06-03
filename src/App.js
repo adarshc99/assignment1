@@ -87,19 +87,19 @@ function App() {
 
     <div className="mb-3 mt-3">
       <label htmlFor="First Name">Email:</label>
-      <input type="text" className="form-control" placeholder="Enter First Name" name="Fname" value={inputs.Fname} onChange={handleChange} onFocus={removeError}/>
+      <input type="text" className="form-control" placeholder="Enter First Name" name="Fname" value={inputs.Fname} onChange={handleChange} onFocus={removeError} autoComplete="off"/>
     </div>
     <div className="mb-3">
       <label htmlFor="Last Name">Last Name:</label>
-      <input type="text" className="form-control" placeholder="Enter Last Name" name="Lname" value={inputs.Lname} onChange={handleChange} onFocus={removeError}/>
+      <input type="text" className="form-control" placeholder="Enter Last Name" name="Lname" value={inputs.Lname} onChange={handleChange} onFocus={removeError} autoComplete="off"/>
     </div>
     <div className="mb-3">
       <label htmlFor="Email">Email:</label>
-      <input type="Email" className="form-control" placeholder="Enter Email" name="Email" value={inputs.Email} onChange={handleChange} onFocus={removeError}/>
+      <input type="Email" className="form-control" placeholder="Enter Email" name="Email" value={inputs.Email} onChange={handleChange} onFocus={removeError} autoComplete="off"/>
     </div>
     <div className="mb-3">
       <label htmlFor="Phone">Phone:</label>
-      <input type="text" className="form-control" placeholder="Enter Phone Number" name="Phone" value={inputs.Phone} onChange={handleChange} onFocus={removeError}/>
+      <input type="text" className="form-control" placeholder="Enter Phone Number" name="Phone" value={inputs.Phone} onChange={handleChange} onFocus={removeError} autoComplete="off"/>
     </div>
     <p className='text-danger'>{error}</p>
     <button className="btn btn-primary" onClick={formValid}>Submit</button>
