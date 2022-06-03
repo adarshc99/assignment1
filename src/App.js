@@ -86,7 +86,7 @@ function App() {
   {setCount === true ?<Student fname={inputs.Fname} lname={inputs.Lname} phone={inputs.Phone} email={inputs.Email}/> :'' }
 
     <div className="mb-3 mt-3">
-      <label htmlFor="First Name">Email:</label>
+      <label htmlFor="First Name">First Name:</label>
       <input type="text" className="form-control" placeholder="Enter First Name" name="Fname" value={inputs.Fname} onChange={handleChange} onFocus={removeError} autoComplete="off"/>
     </div>
     <div className="mb-3">
